@@ -1,0 +1,40 @@
+{
+  "serviceName": "scheduler1",
+  "serviceGroup": "ECOMP1",
+  "servicePort": 1111,
+  "serviceVersion": "2.0",
+
+  "description": "ECOMP Scheduler API",
+
+  "tags": ["scheduler", "ecomp"],
+  "attributes": {
+    "att1": ["att1.1", "att1.2"],
+    "att2": ["att2.1", "att2.2"]
+  },
+  "program": ["5G"],
+
+  "swaggerFilename": "/service01/swagger.json",
+
+  "maintenance": {
+    "port": {
+      "type": "inherit"
+    },
+    "readiness": "/heartbeat"
+  },
+
+  "type": "service",
+  "prerequisites": {
+    "cpu": " ",
+    "memory": " "
+  },
+
+  "requestTimeout": 30,
+  "requestTimeoutRenewal": 6,
+
+  "extKeyRequired": true,
+  "oauth": true,
+  "urac": true,
+  "urac_Profile": true,
+  "urac_ACL": false,
+  "provision_ACL": false
+}

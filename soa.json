@@ -1,0 +1,7 @@
+{
+  "type":"multi",
+  "folders": [
+    "service01/",
+    "service02/"
+  ]
+}
