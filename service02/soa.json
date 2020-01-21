@@ -1,10 +1,10 @@
 {
-  "serviceName": "scheduler2",
-  "serviceGroup": "ECOMP2",
+  "serviceName": "petstore",
+  "serviceGroup": "store",
   "servicePort": 2222,
   "serviceVersion": "1.0",
 
-  "description": "ECOMP Scheduler API",
+  "description": "pet Store",
 
   "tags": ["scheduler", "ecomp"],
   "attributes": {
