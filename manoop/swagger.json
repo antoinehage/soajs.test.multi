@@ -44,7 +44,7 @@
     "/": {
       "get": {
         "tags": [
-          "pet"
+          "Demo"
         ],
         "summary": "Hello world",
         "description": "Returns hello world",
@@ -58,12 +58,6 @@
         "responses": {
           "200": {
             "description": "successful operation"
-          },
-          "400": {
-            "description": "Invalid ID supplied"
-          },
-          "404": {
-            "description": "Pet not found"
           }
         }
       }
