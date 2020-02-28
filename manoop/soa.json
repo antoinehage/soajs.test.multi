@@ -1,7 +1,7 @@
 {
   "serviceName": "manoopml",
   "serviceGroup": "Machine Learning",
-  "servicePort": 4300,
+  "servicePort": 80,
   "serviceVersion": "1",
 
   "description": "Manoop ML",
