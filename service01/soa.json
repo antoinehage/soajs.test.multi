@@ -1,7 +1,7 @@
 {
   "serviceName": "scheduler1",
-  "serviceGroup": "ECOMP1",
-  "servicePort": 1111,
+  "serviceGroup": "ECOMP",
+  "servicePort": 4100,
   "serviceVersion": "2.0",
 
   "description": "ECOMP Scheduler API",

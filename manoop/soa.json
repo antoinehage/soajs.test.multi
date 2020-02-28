@@ -1,0 +1,40 @@
+{
+  "serviceName": "manoop",
+  "serviceGroup": "ML",
+  "servicePort": 4300,
+  "serviceVersion": "1.0",
+
+  "description": "Manoop ML",
+
+  "tags": ["Acumos", "ML"],
+  "attributes": {
+    "ML": ["demo", "kube"],
+    "AI": ["DATA", "Docker"]
+  },
+  "program": ["Data"],
+
+  "swaggerFilename": "/manoop/swagger.json",
+
+  "maintenance": {
+    "port": {
+      "type": "inherit"
+    },
+    "readiness": "/"
+  },
+
+  "type": "service",
+  "prerequisites": {
+    "cpu": " ",
+    "memory": " "
+  },
+
+  "requestTimeout": 30,
+  "requestTimeoutRenewal": 6,
+
+  "extKeyRequired": false,
+  "oauth": false,
+  "urac": false,
+  "urac_Profile": false,
+  "urac_ACL": false,
+  "provision_ACL": false
+}

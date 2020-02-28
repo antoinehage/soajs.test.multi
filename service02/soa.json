@@ -1,7 +1,7 @@
 {
   "serviceName": "petstore",
-  "serviceGroup": "store",
-  "servicePort": 2222,
+  "serviceGroup": "Store",
+  "servicePort": 4200,
   "serviceVersion": "1.0",
 
   "description": "pet Store",
