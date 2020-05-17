@@ -4,5 +4,6 @@
     "service01/",
     "service02/",
     "manoop/"
-  ]
+  ],
+  "tags": ["Acumos", "ML"]
 }
